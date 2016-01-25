@@ -1,0 +1,94 @@
+body {
+    color: #aaa;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:center;
+
+    background-color: #000;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#webglContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+}
+
+.resourceContainer {
+    display: none;
+}
+
+.errorMessage {
+    width: 100%;
+    text-align: center;
+    font-size: 16pt;
+    color: #d4d4d4;
+    border: 20px;
+    position: absolute;
+}
+
+.uiLayer { color:#fff; width:100%; font-size:16px; font-weight:bold; position: absolute; bottom:0px; z-index:9; text-shadow:#000 1px 1px 1px; overflow:hidden; }
+
+.uiRow {
+	
+	position:relative;
+	width:100%;
+	
+}
+
+.uiBg {
+	
+	background-color:rgba(0,0,0,0.60);
+}
+
+/*background:url('textures/ui/ui-lichtdesign-fillbg.svg') repeat-x;*/
+
+
+/* ----------------------------------------------------------------- */
+/* -- JUST FOR TEST-MODE BTN(S) AND SUCH --------------------------- */ 
+/* ----------------------------------------------------------------- */
+.lbl { color:#fff; font-size:16px; font-weight:bold; position: absolute; bottom:0px; z-index:100; height:16.0vw;text-shadow:#000 1px 1px 1px; background-color:rgba(0,0,0,0.85); padding:1em; overflow:hidden; }
+#lbl_left { text-align:left; left:0px }
+.lbr { color:#fff; font-size:16px; font-weight:bold; position: absolute; bottom:100px; z-index:100; height:12.0vw;text-shadow:#000 1px 1px 1px; background-color:rgba(0,0,0,0.85); padding:1em; overflow:hidden; }
+#lbr_right { text-align:right; right:0px }
+
+.g { color:#aaa }
+.c { color:#fa0 }
+
+a { color:red, text-decoration: none; }
+
+.btn {
+	font-family:Monospace;
+	font-size:1.0vw;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	background-color:#00CC00;
+	color: white;
+	padding: 2px 10px;
+
+}
+.shadow {
+
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.35);
+
+}	
+
+.no-deco {
+	
+	text-decoration: none;
+	
+}
+
+.rslider {
+	display: inline-block;
+}
+
+.rsliderbg {
+	background:url('textures/ui/slider-dashed-blue.svg') no-repeat;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bling: Material Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/three.js"></script>
+	<script src='js/threex.rendererstats.js'></script>
+    <script src="js/stats.min.js"></script>
+</head>
+<body id="rootBody">
+    <div style="position: fixed; top:20px; right: 20px; text-align: right;">
+        <p>
+            Ring:
+            <button type="button" onclick="showRing(1);">Arizona</button>
+            <button type="button" onclick="showRing(2);">Delaware</button>
+            <button type="button" onclick="showRing(3);">Georgia</button>
+            <button type="button" onclick="showRing(4);">Idaho</button>
+            <button type="button" onclick="showRing(0);">DEBUG</button>
+        </p>
+        <p>
+            Materials:
+            <button type="button" onclick="setRingColor(0.971519, 0.959915, 0.915324);">Silver</button>
+            <button type="button" onclick="setRingColor(1.000000, 0.765557, 0.336057);">Gold</button>
+            <button type="button" onclick="setRingColor(0.955008, 0.637427, 0.538163);">Copper</button>
+            <button type="button" onclick="setRingColor(0.672411, 0.637331, 0.585456);">Platinum</button>
+            <button type="button" onclick="setRingColor(0.659777, 0.608679, 0.525649);">Nickel</button>
+        </p>
+        <p>
+            Roughness:
+            <button type="button" onclick="setSkybox(0);">0</button>
+            <button type="button" onclick="setSkybox(1);">1</button>
+            <button type="button" onclick="setSkybox(2);">2</button>
+            <button type="button" onclick="setSkybox(3);">3</button>
+            <button type="button" onclick="setSkybox(4);">4</button>
+        </p>
+    </div>
+
+    <script src="js/bling.js"></script>
+</body>
+</html>
